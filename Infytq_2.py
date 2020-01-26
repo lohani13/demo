@@ -1,0 +1,12 @@
+a=input()
+while(True):
+    x=a
+    r=a[::-1]
+    f=int(x)+int(r)
+    f=str(f)
+    y=f[::-1]
+    if(f==y):
+        print(f)
+        break
+    else:
+        a=str(f)
